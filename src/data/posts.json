@@ -1,0 +1,60 @@
+[
+  {
+    "id": "what-vibe-coding-means-to-me",
+    "index": "01",
+    "title": "Building at the Speed of Thought: What Vibe Coding Really Means to Me",
+    "date": "November 2026",
+    "category": "Philosophy",
+    "readTime": "4 min read",
+    "excerpt": "Vibe coding isn't about skipping the fundamentals—it's about protecting creative momentum so raw ideas become deployed reality before the spark fades.",
+    "content": [
+      "When people first hear the term 'vibe coding,' they sometimes think it means blindly pasting prompts and hoping for the best. For me, it means the exact opposite: it is the art of combining deep curiosity, clear architectural research, and flow state to build at the speed of thought.",
+      "Before I write or generate a single component, I spend time researching and shaping the prompt using Claude, ChatGPT, and Gemini. I ask: What is the core user experience? How should the data be structured in JSON so the code stays clean? What makes the typography and motion feel intentional rather than generic?",
+      "In hackathons, momentum is everything. When you get bogged down in four hours of webpack configs or repetitive boilerplate, the original excitement of the idea starts to fade. By building and hosting directly in Google AI Studio, I can go from a raw sketch in Tamil Nadu to a live, deployed web application while the creative energy is still at its peak.",
+      "Most importantly, vibe coding is my favorite way to learn. I always insist on clean, semantic HTML and well-commented JavaScript so that every prototype I ship teaches me how to become a better web developer."
+    ],
+    "keyTakeaways": [
+      "Use AI tools first for clear research, content synthesis, and prompt architecture.",
+      "Protect flow state in hackathons by shipping working prototypes early.",
+      "Always read, comment, and understand the generated code to grow as an engineer."
+    ]
+  },
+  {
+    "id": "my-four-pillar-ai-workflow",
+    "index": "02",
+    "title": "Inside My AI Stack: How I Combine Claude, ChatGPT, Gemini & Google AI Studio",
+    "date": "October 2026",
+    "category": "Workflow",
+    "readTime": "5 min read",
+    "excerpt": "Each AI model has a distinct creative personality. Here is how I orchestrate all four to research, write content, and deploy web apps.",
+    "content": [
+      "Instead of relying on a single AI assistant for everything, I treat my toolkit like a specialized studio team. Every project begins with research and content discovery.",
+      "I open ChatGPT and Gemini to explore the problem space, outline the page structure, and draft authentic copy. Once I know what the app needs to say and do, I work with Claude and Gemini to refine the technical prompt—specifying semantic HTML landmarks, JSON data schemas, and responsive layout rules.",
+      "Finally, I bring that crystal-clear prompt into Google AI Studio. Because Google AI Studio handles both the full-stack framework and cloud hosting, I can focus 100% on iterating the visual design, testing mobile responsiveness, and sharing a live URL immediately."
+    ],
+    "keyTakeaways": [
+      "ChatGPT & Gemini excel at rapid research, ideation, and content structuring.",
+      "Claude & Gemini High-Thinking sharpen architectural prompts and code clarity.",
+      "Google AI Studio bridges the gap from prompt to hosted production app."
+    ]
+  },
+  {
+    "id": "designing-with-calligraphic-typography",
+    "index": "03",
+    "title": "Why I Paired Dark Tech Minimalism with Calligraphic Typography",
+    "date": "October 2026",
+    "category": "Design",
+    "readTime": "3 min read",
+    "excerpt": "Inspired by studios like PostGeneric, I wanted my portfolio to feel human, editorial, and expressive—never like a sterile template.",
+    "content": [
+      "Too many tech portfolios look identical: neon purple gradients, floating stat badges, and default system fonts. When designing my own portfolio website, I studied avant-garde design studios like PostGeneric (`postgeneric.com`).",
+      "What stood out was their restraint: deep obsidian backgrounds (`#050505`), razor-sharp 1px structural grid lines, smooth cubic-bezier transitions, and bold, characterful typography.",
+      "By pairing a calligraphic serif display font (Cormorant Garamond) with a crisp geometric sans-serif (Plus Jakarta Sans) and warm amber-gold accents, the site reflects both sides of vibe coding: technical precision and human creative intuition."
+    ],
+    "keyTakeaways": [
+      "Follow the 60-30-10 color rule: 60% obsidian canvas, 30% subtle structure, 10% warm gold accent.",
+      "Animate only compositor properties (transform and opacity) for silky 60fps scroll motion.",
+      "Keep all data in JSON files so design updates never break content."
+    ]
+  }
+]

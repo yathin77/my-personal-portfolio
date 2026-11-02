@@ -1,0 +1,89 @@
+[
+  {
+    "id": "vibe-portfolio-website",
+    "index": "01",
+    "title": "Personal Vibe Coding Portfolio Website",
+    "subtitle": "Created my own multi-page portfolio website telling my web development journey",
+    "category": "Portfolio & Architecture",
+    "year": "2026",
+    "featured": true,
+    "readTime": "4 min case study",
+    "liveUrl": "https://ais-pre-pumglmhu26gcjd7mvio354-517319722959.asia-southeast1.run.app",
+    "repoUrl": "https://github.com/yathin77",
+    "artworkType": "portfolio-monograph",
+    "summary": "Created my own multi-page portfolio website from the ground up through vibe coding—featuring a dark, calligraphic editorial aesthetic inspired by PostGeneric, JSON-driven content architecture, and an embedded high-thinking prompt studio.",
+    "challenge": "Most developer portfolios either look like generic templates or require editing raw JSX every time a new project or blog post is added. I wanted a bold, dark, calligraphic portfolio that tells my authentic story from Tamil Nadu while keeping every piece of content cleanly separated in JSON data files.",
+    "solution": "Using Claude, ChatGPT, and Gemini for initial research and prompt synthesis—and building/hosting directly inside Google AI Studio—I architected a 5-page + journal application where projects, timeline milestones, and blog posts load dynamically from JSON files. It pairs Cormorant Garamond calligraphic typography with subtle cubic-bezier motion.",
+    "vibePromptUsed": "Build a multi-page portfolio website that tells the story of my web development journey through vibe coding. Style: modern, animated, dark and techy with bold calligraphic typography and PostGeneric-inspired kinetic transitions. Keep all projects, timeline entries, and blog posts in JSON data files with clean, commented code.",
+    "stack": [
+      "Semantic HTML5",
+      "JavaScript / TypeScript",
+      "Tailwind CSS",
+      "JSON Data Layer",
+      "Google AI Studio Hosting"
+    ],
+    "highlights": [
+      "100% decoupled JSON content layer for projects, timeline entries, and journal posts",
+      "PostGeneric-inspired kinetic typography, marquee ribbons, and compositor-only scroll reveals",
+      "Dynamic per-page SEO title, meta description, OpenGraph tags, and XML sitemap",
+      "Clean, heavily commented codebase designed for continuous learning and readability"
+    ]
+  },
+  {
+    "id": "multi-model-prompt-workflow",
+    "index": "02",
+    "title": "Vibe Prompt & Content Synthesis Blueprint",
+    "subtitle": "Structured research-to-deployment workflow across Claude, ChatGPT, and Gemini",
+    "category": "AI Workflow",
+    "year": "2026",
+    "featured": false,
+    "readTime": "3 min case study",
+    "liveUrl": "https://github.com/yathin77",
+    "repoUrl": "https://github.com/yathin77",
+    "artworkType": "prompt-synthesis",
+    "summary": "A repeatable prompt engineering system I created to research domain requirements, structure content, and draft high-precision build prompts before launching full-stack prototypes in Google AI Studio.",
+    "challenge": "Jumping straight into code generation with vague ideas leads to messy layouts and broken logic. During hackathons, clarity of thought is the difference between a stalled repo and a deployed product.",
+    "solution": "I designed a 3-stage prompt pipeline: first using ChatGPT and Gemini for competitive research and content structuring, then Claude for semantic architecture refinement, and finally executing and hosting the build inside Google AI Studio.",
+    "vibePromptUsed": "Act as a principal web architect. Given my raw hackathon concept, output: 1) Core user journey in 3 steps, 2) JSON schema for all dynamic content, 3) Accessibility & SEO checklist, and 4) A single deterministic build prompt for Google AI Studio.",
+    "stack": [
+      "Claude",
+      "ChatGPT",
+      "Gemini 4 Argon",
+      "Google AI Studio",
+      "Markdown & JSON"
+    ],
+    "highlights": [
+      "Reduces initial boilerplate and setup time by over 80% during hackathons",
+      "Enforces semantic HTML, accessible keyboard navigation, and mobile responsiveness from turn one",
+      "Integrated live inside this portfolio's Toolkit page via Gemini High-Thinking mode"
+    ]
+  },
+  {
+    "id": "rapid-hackathon-ui-kit",
+    "index": "03",
+    "title": "Flow-State Hackathon Starter Architecture",
+    "subtitle": "Zero-boilerplate semantic web patterns for 24-hour rapid prototyping",
+    "category": "Rapid Prototyping",
+    "year": "2026",
+    "featured": false,
+    "readTime": "3 min case study",
+    "liveUrl": "https://github.com/yathin77",
+    "repoUrl": "https://github.com/yathin77",
+    "artworkType": "hackathon-grid",
+    "summary": "A curated collection of accessible, dark-mode layout patterns, breadcrumb navigators, and JSON data loaders built to turn raw hackathon ideas into deployed reality before momentum fades.",
+    "challenge": "In a hackathon, spending four hours wiring navigation headers, mobile drawers, and form validation drains creative momentum before you even touch the core problem.",
+    "solution": "I distilled my favorite editorial layout structures—responsive headers, breadcrumb trails, lightbox viewers, and validated forms—into clean, commented modules that I can adapt in minutes.",
+    "vibePromptUsed": "Create a modular, accessible dark-mode web layout with shared header, mobile hamburger menu, breadcrumb navigation, and smooth page transitions using only compositor-friendly CSS transforms.",
+    "stack": [
+      "HTML5",
+      "Modern JavaScript",
+      "Tailwind CSS",
+      "WCAG AA Accessibility"
+    ],
+    "highlights": [
+      "Sub-200ms interaction feedback using cubic-bezier(0.16, 1, 0.3, 1) settling curves",
+      "Full keyboard navigation and screen-reader friendly ARIA landmarks",
+      "Designed for instant cloud deployment via Google AI Studio"
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "google-ai-studio",
+    "index": "01",
+    "name": "Google AI Studio",
+    "role": "Primary Build Environment, Framework & Cloud Hosting",
+    "category": "Build & Hosting",
+    "howIUseIt": "My central command center. I use Google AI Studio both as my application framework and my instant cloud hosting platform—allowing me to iterate on full-stack code, preview live in the browser, and deploy directly to Cloud Run URLs.",
+    "workflowStage": "Stage 04 · Build, Verify & Host",
+    "samplePrompt": "Build a multi-page portfolio with JSON data files, semantic HTML, calligraphic display typography, and PostGeneric-inspired subtle scroll animations."
+  },
+  {
+    "id": "claude",
+    "index": "02",
+    "name": "Claude",
+    "role": "Architecture Refinement, Code Explanations & Prompt Structuring",
+    "category": "AI Reasoning",
+    "howIUseIt": "I use Claude to dissect complex UI architectures, refine my build prompts for maximum clarity, and break down unfamiliar JavaScript patterns into clean, commented code that accelerates my learning.",
+    "workflowStage": "Stage 02 · Architecture & Prompt Polish",
+    "samplePrompt": "Explain how this state transition works step-by-step with beginner-friendly code comments, and help me structure a clean JSON schema for my portfolio data."
+  },
+  {
+    "id": "gemini",
+    "index": "03",
+    "name": "Gemini",
+    "role": "Deep Research, Multimodal Context & High-Thinking Reasoning",
+    "category": "AI Reasoning",
+    "howIUseIt": "I use Gemini (including Gemini 4 Argon with High Thinking) for deep technical research, synthesizing large documentation sets, and powering intelligent server-side features inside my apps.",
+    "workflowStage": "Stage 01 · Deep Research & Systems Thinking",
+    "samplePrompt": "Analyze the motion language of PostGeneric and synthesize a 60-30-10 dark-mode design specification with compositor-only CSS transitions."
+  },
+  {
+    "id": "chatgpt",
+    "index": "04",
+    "name": "ChatGPT",
+    "role": "Rapid Ideation, Content Drafting & UX Copywriting",
+    "category": "Research & Content",
+    "howIUseIt": "When a raw idea strikes, I use ChatGPT to brainstorm user journeys, draft crisp editorial copy, explore edge cases, and turn rough thoughts into structured project briefs.",
+    "workflowStage": "Stage 01 · Ideation & Content Strategy",
+    "samplePrompt": "Help me articulate my vibe coding philosophy—focusing on flow state, shipping hackathon prototypes before momentum fades, and continuous learning."
+  },
+  {
+    "id": "html-js-tailwind",
+    "index": "05",
+    "name": "Semantic HTML, JavaScript & Tailwind CSS",
+    "role": "Core Web Engineering Stack",
+    "category": "Web Fundamentals",
+    "howIUseIt": "AI tools are only as good as the web fundamentals they output. I focus on clean semantic HTML5 (`<main>`, `<nav>`, `<article>`), modular JavaScript/TypeScript, and responsive Tailwind CSS.",
+    "workflowStage": "Stage 03 · Implementation & Inspection",
+    "samplePrompt": "Ensure every interactive element uses native <button> or <a> tags, meets WCAG AA contrast, and includes clear educational comments."
+  }
+]

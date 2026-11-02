@@ -1,0 +1,57 @@
+[
+  {
+    "id": "vibe-coding",
+    "index": "01",
+    "name": "Vibe Coding",
+    "category": "AI-Native Engineering",
+    "focus": "Flow-State Prototyping · Google AI Studio · Full-Stack Shipping",
+    "description": "Leveraging intuition, flow state, and AI tools (Claude, ChatGPT, Gemini, Google AI Studio) to bypass boilerplate and turn raw hackathon ideas into deployed web applications before momentum fades.",
+    "howIPractice": "I combine rapid AI generation with line-by-line code inspection—ensuring every prototype ships fast while teaching me clean web architecture.",
+    "snippetLabel": "VIBE WORKFLOW PIPELINE",
+    "codeSnippet": "// Yathin's 4-Stage Vibe Coding Loop\nconst vibeWorkflow = {\n  research: ['ChatGPT', 'Gemini'],\n  architecture: 'Claude + JSON Data Layer',\n  buildAndHost: 'Google AI Studio (Cloud Run)',\n  rule: 'Ship before creative momentum fades'\n};"
+  },
+  {
+    "id": "prompt-engineering",
+    "index": "02",
+    "name": "Prompt Engineering",
+    "category": "AI Systems & Context",
+    "focus": "Context Architecture · Schema Constraints · High-Thinking Prompts",
+    "description": "Crafting clear, deterministic research and build prompts that guide LLMs to output modular, accessible, and well-commented code rather than generic templates.",
+    "howIPractice": "I structure prompts with explicit role definitions, JSON schemas, typography rules, and accessibility constraints before generating a single component.",
+    "snippetLabel": "STRUCTURED BUILD PROMPT",
+    "codeSnippet": "ROLE: Senior Web Architect\nTASK: Build a dark-mode portfolio with Cormorant Garamond calligraphic headings.\nCONSTRAINTS:\n- Store all projects, skills & posts in src/data/*.json\n- Use semantic HTML5 (<main>, <nav>, <article>)\n- Comment key logic for continuous learning"
+  },
+  {
+    "id": "html",
+    "index": "03",
+    "name": "HTML",
+    "category": "Web Fundamentals",
+    "focus": "Semantic HTML5 · WCAG AA Accessibility · SEO Landmarks",
+    "description": "Building rock-solid document structures using native semantic HTML elements—ensuring screen-reader accessibility, keyboard navigation, and search engine clarity.",
+    "howIPractice": "I always choose native <button>, <a href>, <nav>, <main>, and <article> tags over generic divs, paired with per-page OpenGraph and Schema.org metadata.",
+    "snippetLabel": "SEMANTIC HTML5 MARKUP",
+    "codeSnippet": "<article aria-labelledby=\"project-01\">\n  <header>\n    <span class=\"font-mono\">01 · Portfolio Architecture</span>\n    <h3 id=\"project-01\">Personal Vibe Coding Website</h3>\n  </header>\n  <p>Decoupled JSON data rendered into semantic DOM.</p>\n</article>"
+  },
+  {
+    "id": "python",
+    "index": "04",
+    "name": "Python",
+    "category": "Programming & Automation",
+    "focus": "Clean Scripting · Data Processing · AI API Automation",
+    "description": "Writing readable, expressive Python for problem-solving, automating data transformations, and experimenting with AI/LLM workflows and backend logic.",
+    "howIPractice": "Python's clean syntax matches my vibe coding philosophy—allowing me to prototype algorithms, parse JSON datasets, and test logic rapidly.",
+    "snippetLabel": "PYTHON AUTOMATION SCRIPT",
+    "codeSnippet": "import json\n\ndef summarize_portfolio_skills(path: str = 'src/data/skills.json') -> list[str]:\n    \"\"\"Load decoupled skill entries and format summary labels.\"\"\"\n    with open(path, 'r', encoding='utf-8') as file:\n        skills = json.load(file)\n    return [f\"{s['index']}. {s['name']} ({s['category']})\" for s in skills]"
+  },
+  {
+    "id": "c-programming",
+    "index": "05",
+    "name": "C",
+    "category": "Core Computer Science",
+    "focus": "Structured Logic · Memory Discipline · Algorithmic Foundations",
+    "description": "Understanding how software works close to the metal—using C to build strong fundamentals in control flow, pointers, data structures, and execution efficiency.",
+    "howIPractice": "Learning C gives me a deep appreciation for what high-level web frameworks and AI tools abstract away under the hood.",
+    "snippetLabel": "C FOUNDATIONAL LOGIC",
+    "codeSnippet": "#include <stdio.h>\n\nint main(void) {\n    const char *skills[] = {\"Python\", \"Vibe Coding\", \"C\", \"HTML\", \"Prompt Engineering\"};\n    int count = 5;\n    for (int i = 0; i < count; i++) {\n        printf(\"[0%d] Mastered Skill: %s\\n\", i + 1, skills[i]);\n    }\n    return 0;\n}"
+  }
+]

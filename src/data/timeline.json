@@ -1,0 +1,52 @@
+[
+  {
+    "id": "tn-origins",
+    "index": "01",
+    "period": "Roots & Curiosity",
+    "location": "Tamil Nadu, India",
+    "title": "Born in Tamil Nadu — The Spark of Inquisitive Building",
+    "category": "Origin",
+    "description": "Growing up in Tamil Nadu, I was always drawn to how technology and design intersect. Instead of accepting software as a black box, I wanted to understand how ideas become interactive experiences on screen.",
+    "milestoneTag": "Foundation"
+  },
+  {
+    "id": "html-js-foundations",
+    "index": "02",
+    "period": "Core Web Fundamentals",
+    "location": "Self-Directed Learning",
+    "title": "Mastering Semantic HTML, CSS & JavaScript",
+    "category": "Learning",
+    "description": "Started learning the foundational building blocks of the web—semantic HTML tags, responsive layouts, DOM manipulation, and clean commented JavaScript so I can read and reason about every line of code.",
+    "milestoneTag": "Web Core"
+  },
+  {
+    "id": "discovering-vibe-coding",
+    "index": "03",
+    "period": "The Vibe Shift",
+    "location": "AI-Augmented Workflow",
+    "title": "Discovering Vibe Coding with Claude, ChatGPT & Gemini",
+    "category": "Vibe Coding",
+    "description": "Realized that combining human creative intuition with AI models unlocks an entirely new flow state. Began using Claude, ChatGPT, and Gemini to research deeply, structure content, and craft clear build prompts.",
+    "milestoneTag": "Flow State"
+  },
+  {
+    "id": "google-ai-studio-shipping",
+    "index": "04",
+    "period": "Rapid Deployment",
+    "location": "Google AI Studio",
+    "title": "Building & Hosting Full-Stack Apps in Google AI Studio",
+    "category": "Deployment",
+    "description": "Adopted Google AI Studio as my primary framework and cloud hosting environment—turning raw hackathon concepts into live, shareable web applications before creative momentum fades.",
+    "milestoneTag": "Shipped"
+  },
+  {
+    "id": "portfolio-launch",
+    "index": "05",
+    "period": "2026 & Beyond",
+    "location": "Global Web",
+    "title": "Created My Own Portfolio & Pursuing Web Mastery",
+    "category": "Milestone",
+    "description": "Designed and built this multi-page portfolio website to document my vibe coding journey, share my AI toolkit, and work relentlessly toward becoming the best web developer.",
+    "milestoneTag": "Current"
+  }
+]

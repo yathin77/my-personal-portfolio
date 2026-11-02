@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 
+ * Typography & Theme Tokens
+ * Following the 2+1 Font Rule:
+ * 1. Calligraphic / Editorial Display: 'Cormorant Garamond'
+ * 2. Geometric Sans Body & Headings: 'Plus Jakarta Sans'
+ * 3. Tabular Monospace Telemetry/Indices: 'JetBrains Mono'
+ */
+@layer base {
+  :root {
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #050505;
+    color: #F4F4F6;
+    overflow-x: hidden;
+    letter-spacing: 0.01em;
+  }
+}
+
+.font-calligraphic {
+  font-family: var(--font-display);
+}
+
+.font-sans-editorial {
+  font-family: var(--font-sans);
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* PostGeneric-inspired kinetic marquee ribbon (compositor-only transform) */
+@keyframes marquee-scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 34s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Smooth settling curve inspired by PostGeneric transitions */
+.transition-editorial {
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  transition-duration: 180ms;
+}
+
+/* Respect user accessibility preferences for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

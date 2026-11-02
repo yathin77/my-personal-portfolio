@@ -1,0 +1,78 @@
+{
+  "name": "Yathin Ajay Kumar khotwani A",
+  "shortName": "Yathin",
+  "tagline": "Inquisitive Vibe Coder",
+  "origin": "Tamil Nadu, India",
+  "ambition": "I want to become the best web developer—combining deep architectural understanding with the velocity of AI-native workflows.",
+  "shortBio": "I build at the speed of thought. I am deeply interested in the art of vibe coding—leveraging AI, intuition, and flow state to bypass boilerplate and ship prototypes lightning-fast. For me, hackathons are about focusing on the user experience and turning raw ideas into deployed reality before the momentum fades.",
+  "aboutStory": [
+    "Born and raised in Tamil Nadu, my fascination with the web started with a simple question: why does turning a clear visual idea into a working web application take weeks of repetitive setup?",
+    "That curiosity led me to the art of Vibe Coding—an inquisitive, flow-state approach to software creation where human intuition directs AI models (Claude, ChatGPT, Gemini, and Google AI Studio) to handle boilerplate while I focus relentlessly on user experience, typography, motion, and real product value.",
+    "Whether in high-pressure hackathons or solo late-night builds, I use AI not as a shortcut around learning, but as an interactive mentor and accelerator. Every generated module is something I inspect, comment, and refine—because my ultimate goal is to become the best web developer I can possibly be."
+  ],
+  "vibePhilosophy": [
+    {
+      "index": "01",
+      "title": "Research & Prompt Architecture First",
+      "description": "Great vibe coding starts before a single line of code is generated. I use Claude, ChatGPT, and Gemini to dissect the problem, structure clean data models, and write crystal-clear build prompts."
+    },
+    {
+      "index": "02",
+      "title": "Ship Before Momentum Fades",
+      "description": "In hackathons and rapid prototyping, creative energy is perishable. By bypassing repetitive setup in Google AI Studio, I keep the idea alive and testable in a real browser within minutes."
+    },
+    {
+      "index": "03",
+      "title": "Read, Comment & Master the Code",
+      "description": "Vibe coding is how I learn faster. By demanding clean, semantic HTML, modular JavaScript/TypeScript, and commented logic, every prototype makes me a stronger engineer."
+    }
+  ],
+  "metrics": [
+    {
+      "value": "4",
+      "unit": "Core AI Engines",
+      "context": "Claude · ChatGPT · Gemini · Google AI Studio"
+    },
+    {
+      "value": "100%",
+      "unit": "Data-Driven Content",
+      "context": "Zero hardcoded projects, timeline, or journal entries"
+    },
+    {
+      "value": "< 24h",
+      "unit": "Idea-to-Deploy Cycle",
+      "context": "From raw hackathon concept to live Cloud Run URL"
+    },
+    {
+      "value": "TN, IN",
+      "unit": "Origin & Base",
+      "context": "Born in Tamil Nadu · Building for the global web"
+    }
+  ],
+  "contact": {
+    "email": "yathin7477@gmail.com",
+    "github": "https://github.com/yathin77",
+    "linkedin": "https://www.linkedin.com/in/yathin-ajay-634b87418/",
+    "instagram": "https://www.instagram.com/yathin776611/"
+  },
+  "resume": {
+    "headline": "Yathin Ajay Kumar khotwani A — Web Developer & Inquisitive Vibe Coder",
+    "location": "Tamil Nadu, India",
+    "summary": "Inquisitive web developer specializing in AI-augmented web engineering (Vibe Coding), semantic HTML, modern JavaScript/TypeScript, responsive Tailwind CSS interfaces, and rapid full-stack prototyping in Google AI Studio.",
+    "education": [
+      {
+        "period": "Present",
+        "institution": "Self-Directed Web Engineering & AI Systems",
+        "location": "Tamil Nadu, India",
+        "focus": "Semantic HTML5, Modern JavaScript (ES2022+), TypeScript, React, Tailwind CSS, Prompt Engineering & Full-Stack Deployment"
+      }
+    ],
+    "coreSkills": [
+      "Python (Scripting, Data Processing & AI Automation)",
+      "Vibe Coding (AI-Augmented Rapid Prototyping in Google AI Studio)",
+      "C (Core Computer Science, Structured Logic & Memory Fundamentals)",
+      "HTML (Semantic HTML5, Accessibility & SEO Architecture)",
+      "Prompt Engineering (Multi-Model Research & Build Blueprints)"
+    ]
+  }
+}
